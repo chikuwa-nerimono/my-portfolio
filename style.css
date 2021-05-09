@@ -1,0 +1,141 @@
+#nav li {
+  float: right;
+  width: 100px;
+  list-style: none;
+  margin: 0;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  padding: 5px;
+  text-align: center;
+}
+
+li:hover {
+  background-color: rgb(77, 135, 158);
+  color: aliceblue;
+}
+
+.main {
+  height: 80%;
+}
+
+header {
+  height: 2rem;
+  background-color: lightblue;
+}
+
+.chisako {
+  text-align: center;
+  width: 100%;
+}
+
+.chisako img {
+  text-align: center;
+  width: 100%;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  display: block;
+  border: solid 4px rgb(187, 180, 180);
+  width: 15rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1rem;
+}
+
+.box-title {
+  text-align: center;
+  background-color: rgb(63, 139, 120);
+  color: ivory;
+  padding: 5px;
+}
+
+.box-text {
+  color: black;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.box-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.box-img img {
+  width: 100%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.box-img:hover img {
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+
+.chikuwa__add-chikuwa {
+  margin-top: 1.5rem;
+  margin-left: 40%;
+  margin-bottom: 1.5rem;
+  background-color: rgb(143, 61, 61);
+  color: aliceblue;
+  border-radius: 5px;
+  width: 10rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.chikuwa__display {
+  text-align: center;
+  padding: 1rem;
+  font-size: 24px;
+}
+
+.my__chikuwa__display {
+  color: blue;
+}
+
+.addChikuwa {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+.chikuwa__items-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  margin: 1rem;
+}
+
+footer {
+  background-color: grey;
+  color: ivory;
+  height: 3rem;
+  position: relative;
+}
+
+.footer-p {
+  text-align: center;
+  margin: auto;
+  padding-top: 10px;
+}

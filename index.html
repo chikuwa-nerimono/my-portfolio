@@ -6,10 +6,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>Chikuwa's Portfolio</title>
   </head>
   <body>
-    <script src="main.js"></script>
-    test
+   
+     <header>
+        <nav id="nav">
+          <ul>
+            <a href="/index.html"><li>ホーム</li></a>
+          </ul>
+        </nav>
+      </header>
+    <div class="main">     
+      <div class="chisako">
+        <img src="/img/chikuwa.png" alt="ちくわの遺影があるんだが…" />
+        <h2>笠原 智佐子 と申します!</h2>
+        <h2>ちくわって呼んでね★</h2>
+      </div>
+
+      <div class="box-container">
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="https://www.city.toyota.aichi.jp/"
+              ><img src="/img/toyota.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">出身</h5>
+            <p class="box-text">愛知にある車の町だよ。</p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="https://www.nitech.ac.jp/"
+              ><img src="/img/nit.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">大学</h5>
+            <p class="box-text">
+              名古屋の工業大学。（修士）1年生だったりする。
+            </p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="http://solar-car.club.nitech.ac.jp/index.html"
+              ><img src="/img/cra.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">所属学科</h5>
+            <p class="box-text">創造工学教育課程に所属。楽しいよ～。</p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="http://cr.web.nitech.ac.jp/"
+              ><img src="/img/search.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">研究室</h5>
+            <p class="box-text">
+              構造物性科学研究室。難しい研究をしているみたい。
+            </p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="http://structure.web.nitech.ac.jp/"
+              ><img src="/img/solarcar.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">所属部活</h5>
+            <p class="box-text">
+              ものづくり部。オーストラリアを縦断したりもした。
+            </p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="https://geek-salon.com/"
+              ><img src="/img/geeksalon.PNG" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">課外活動</h5>
+            <p class="box-text">Geeksalon。WebとWebexやってるお。</p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="https://www.sirogohan.com/recipe/kouyatouhu/"
+              ><img src="/img/favfood.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">好物</h5>
+            <p class="box-text">高野豆腐。よく渋いっていわれる。</p>
+          </div>
+        </div>
+        <div class="box" ,style="width: 18rem;">
+          <div class="box-img">
+            <a href="https://www.tv-asahi.co.jp/zenkaiger/"
+              ><img src="/img/tokusatsu.jpg" alt="映ってないお"
+            /></a>
+          </div>
+          <div class="box-body">
+            <h5 class="box-title">趣味</h5>
+            <p class="box-text">特撮鑑賞！みんなも見てね（布教）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chikuwa-machine">
+        <h1 class="addChikuwa">ちくわを製造しよう！</h1>
+      <div class="chikuwa__add-chikuwa">
+        <button id="produce-chikuwa">ちくわを製造する</button>
+      </div>
+      <div class="chikuwa__display">
+        現在のちくわ生産数:<span class="my__chikuwa__display" id="my-chikuwa"
+          >0</span
+        >個
+      </div>
+      </div>
+      <div class="chikuwa__items-container" id="display"></div>
+    </div>
+     <script src="main.js"></script>
+    <footer>
+      <p class="footer-p">Copyright © chikuwa All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
